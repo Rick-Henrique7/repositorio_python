@@ -48,6 +48,8 @@ def altera():
         print('Nome não encontrado')
 
 def lista():
+    if agenda == []:
+        print("Alerta: Não há ninguem na sua Agenda")
     print('\nAgenda\n\n------')
     for e in agenda:
         mostra_dados(e[0], e[1])
