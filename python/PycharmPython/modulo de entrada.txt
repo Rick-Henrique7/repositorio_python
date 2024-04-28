@@ -1,0 +1,3 @@
+;esta linha não deve ser impressa
+>esta linha deve ser impressa
+*esta linha deve ser centralizada
